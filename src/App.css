@@ -1,0 +1,81 @@
+body {margin: 0; padding: 0;}
+* {box-sizing: border-box;}
+  .container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding-top:5px;
+    text-align: center;
+    background: #e8d98b;
+    color: blue;
+  }
+    .container {
+      width: 100%;
+      position: relative;
+      padding-top:5px;
+      text-align: center;
+      background: #e8d98b;
+      color: blue;
+    }
+      #root {
+        width: 96%;
+        height: max-content;
+        margin: auto;
+        background: #fff;
+        overflow: auto;
+        border: 1px solid #000;
+        border-top: 1px solid #fff;
+      }
+        .App {text-align: right;}
+          .btn_control {
+            appearance: none;
+            border: none;
+            margin: 15px 30px 5px 0;
+          }
+            .content_card {
+              width: 90%;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+            }
+              .card {
+                max-width: 250px;
+                text-align: center;
+                color: #000;
+                margin: 2%;
+                background: rgb(243, 243, 243);
+                border-radius: 10px;
+                box-shadow: 0px 1px 10px rgb(182, 170, 170);
+                padding: 5px;
+              }
+                .name {margin: 1px;}
+                .card_color {text-decoration: underline; margin: 3px;}
+                .card_img {width: 80%;}
+                .card_footer {
+                  width: 90%;
+                  margin: auto;
+                  display: flex;
+                  justify-content: space-around;
+                  align-items: center;
+                  padding-bottom: 10px;
+                }
+                .price { font-weight: 500; margin: 0; color: red;}
+                .btn {
+                  border: 1px solid red;
+                  border-radius: 15px;
+                  padding: 5px 10px;
+                  color: red;
+                  font-weight: 800;
+                  height: min-content;
+                }
+              .item {
+                height: 120px;
+                width: 90%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 1% auto;
+                background: rgb(243, 243, 243);
+                color: #000;
+              }
+                .item_img {height: 80%;}
